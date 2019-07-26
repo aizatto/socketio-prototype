@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.test.ts' --exec 'ts-node' src/server.ts"
+  },
+  "dependencies": {
+    "socket.io": "^2.2.0",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^2.1.2",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0"
+  }
+}
